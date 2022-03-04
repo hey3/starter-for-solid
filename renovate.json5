@@ -12,7 +12,7 @@
   vulnerabilityAlerts: {
     labels: ['security'],
   },
-  enabledManagers: ['npm'],
+  enabledManagers: ['npm', 'github-actions'],
   separateMinorPatch: true,
   patch: {
     automerge: true,
