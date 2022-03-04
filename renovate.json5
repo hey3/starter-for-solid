@@ -1,0 +1,61 @@
+{
+  extends: ['config:base'],
+  timezone: 'Asia/Tokyo',
+  schedule: ['every weekend'],
+  lockFileMaintenance: {
+    enabled: true,
+    automerge: true,
+    schedule: ['before 3am on the first day of the month'],
+  },
+  labels: ['renovate'],
+  commitMessagePrefix: 'ci: ',
+  vulnerabilityAlerts: {
+    labels: ['security'],
+  },
+  enabledManagers: ['npm'],
+  separateMinorPatch: true,
+  patch: {
+    automerge: true,
+  },
+  packageRules: [
+    {
+      groupName: 'Solid',
+      matchPackageNames: [
+        'solid-js',
+        'solid-app-router',
+        'babel-preset-solid',
+        'eslint-plugin-solid',
+        'vite-plugin-solid',
+      ],
+    },
+    {
+      groupName: 'Typescript',
+      matchPackageNames: ['typescript'],
+    },
+    {
+      groupName: 'CSS families',
+      matchPackageNames: ['tailwindcss', 'postcss', 'autoprefixer'],
+    },
+    {
+      groupName: 'Builder families',
+      matchPackageNames: ['vite'],
+    },
+    {
+      groupName: 'Babel families',
+      matchPackagePatterns: ['^@babel'],
+    },
+    {
+      groupName: 'Lint families',
+      matchPackageNames: ['eslint', 'prettier'],
+      matchPackagePatterns: ['^eslint-', '^prettier-', '^@typescript-eslint'],
+    },
+    {
+      groupName: 'Test families',
+      matchPackageNames: ['vitest', 'jsdom'],
+    },
+    {
+      groupName: 'Storybook families',
+      matchPackagePatterns: ['^@storybook'],
+    },
+  ],
+}

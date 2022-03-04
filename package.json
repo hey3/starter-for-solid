@@ -1,0 +1,64 @@
+{
+  "name": "starter-for-solid",
+  "version": "1.0.0",
+  "description": "My boilerplate for Web Frontend using SolidJS.",
+  "keywords": [
+    "solidjs",
+    "typescript",
+    "vite",
+    "tailwindcss",
+    "pnpm",
+    "boilerplate-template"
+  ],
+  "homepage": "https://github.com/hey3/starter-for-solid#readme",
+  "bugs": {
+    "url": "https://github.com/hey3/starter-for-solid/issues"
+  },
+  "license": "MIT",
+  "author": "hey3",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hey3/starter-for-solid.git"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "format": "prettier --check './src/**/*.{ts,tsx,json}'",
+    "format:fix": "prettier --write './src/**/*.{ts,tsx,json}'",
+    "lint": "eslint './src/**/*.{ts,tsx}'",
+    "lint:fix": "eslint --fix './src/**/*.{ts,tsx}'",
+    "storybook": "start-storybook -p 6006",
+    "test": "vitest --passWithNoTests",
+    "typecheck": "tsc --project tsconfig.json --pretty --noEmit --incremental false"
+  },
+  "dependencies": {
+    "solid-app-router": "0.3.0",
+    "solid-js": "1.3.9"
+  },
+  "devDependencies": {
+    "@babel/preset-typescript": "7.16.7",
+    "@storybook/addon-a11y": "6.4.19",
+    "@storybook/addon-essentials": "6.4.19",
+    "@storybook/addon-postcss": "2.0.0",
+    "@storybook/html": "6.4.19",
+    "@typescript-eslint/eslint-plugin": "5.13.0",
+    "@typescript-eslint/parser": "5.13.0",
+    "autoprefixer": "10.4.2",
+    "babel-preset-solid": "1.3.6",
+    "eslint": "8.10.0",
+    "eslint-config-prettier": "8.5.0",
+    "eslint-plugin-import": "2.25.4",
+    "eslint-plugin-jsx-a11y": "6.5.1",
+    "eslint-plugin-solid": "0.4.4",
+    "jsdom": "19.0.0",
+    "postcss": "8.4.7",
+    "prettier": "2.5.1",
+    "tailwindcss": "3.0.23",
+    "typescript": "4.6.2",
+    "vite": "2.8.6",
+    "vite-plugin-solid": "2.2.5",
+    "vitest": "0.5.9"
+  }
+}
