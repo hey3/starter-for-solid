@@ -1,5 +1,6 @@
 # starter-for-solid
 
+![Check workflow](https://github.com/hey3/starter-for-solid/actions/workflows/check.yml/badge.svg)
 [![Renovate](https://img.shields.io/badge/renovate-enabled-brightgreen.svg)](https://renovatebot.com)
 
 My boilerplate for Web Frontend using SolidJS.
