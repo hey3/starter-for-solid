@@ -23,7 +23,7 @@ specifiers:
   tailwindcss: 3.0.23
   typescript: 4.6.2
   vite: 2.8.6
-  vite-plugin-solid: 2.2.5
+  vite-plugin-solid: 2.2.6
   vitest: 0.5.9
 
 dependencies:
@@ -51,7 +51,7 @@ devDependencies:
   tailwindcss: 3.0.23_autoprefixer@10.4.2
   typescript: 4.6.2
   vite: 2.8.6
-  vite-plugin-solid: 2.2.5
+  vite-plugin-solid: 2.2.6
   vitest: 0.5.9_jsdom@19.0.0
 
 packages:
@@ -11734,8 +11734,8 @@ packages:
       vfile-message: 2.0.4
     dev: true
 
-  /vite-plugin-solid/2.2.5:
-    resolution: {integrity: sha512-SJkXdVnrPnhAWzs8Vi/+9oViUfx6TiQo8y1FFlDiyUdZR4nxTyGmRzz4xx+CC75GJL3hgDWac/zYA6sYq8SQAg==}
+  /vite-plugin-solid/2.2.6:
+    resolution: {integrity: sha512-J1RnmqkZZJSNYDW7vZj0giKKHLWGr9tS/gxR70WDSTYfhyXrgukbZdIfSEFbtrsg8ZiQ2t2zXcvkWoeefenqKw==}
     dependencies:
       '@babel/core': 7.17.5
       '@babel/preset-typescript': 7.16.7_@babel+core@7.17.5
