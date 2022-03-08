@@ -1,6 +1,7 @@
 module.exports = {
   stories: ['../src'],
   addons: [
+    '@storybook/addon-a11y',
     '@storybook/addon-essentials',
     {
       name: '@storybook/addon-postcss',

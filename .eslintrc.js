@@ -23,10 +23,10 @@ module.exports = {
       extends: [
         'plugin:@typescript-eslint/recommended',
         'plugin:solid/typescript',
-        'eslint-config-prettier',
         'plugin:jsx-a11y/recommended',
         'plugin:import/recommended',
         'plugin:import/typescript',
+        'eslint-config-prettier',
       ],
       rules: {
         'import/export': 'off',
