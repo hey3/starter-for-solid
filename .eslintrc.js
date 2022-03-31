@@ -24,6 +24,7 @@ module.exports = {
         'plugin:@typescript-eslint/recommended',
         'plugin:solid/typescript',
         'plugin:jsx-a11y/recommended',
+        'plugin:tailwindcss/recommended',
         'plugin:import/recommended',
         'plugin:import/typescript',
         'eslint-config-prettier',
