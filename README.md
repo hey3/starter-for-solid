@@ -43,7 +43,7 @@ This application make active usage of
 
 ## License
 
-[MIT License](https://github.com/hey3/starter-for-solid/blob/master/LICENSE)
+[MIT License](https://github.com/hey3/starter-for-solid/blob/main/LICENSE)
 
 ## Author
 
