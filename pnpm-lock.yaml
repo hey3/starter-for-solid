@@ -14,7 +14,7 @@ specifiers:
   eslint-config-prettier: 8.5.0
   eslint-plugin-import: 2.25.4
   eslint-plugin-jsx-a11y: 6.5.1
-  eslint-plugin-solid: 0.4.5
+  eslint-plugin-solid: 0.4.6
   eslint-plugin-tailwindcss: 3.5.0
   jsdom: 19.0.0
   postcss: 8.4.12
@@ -45,7 +45,7 @@ devDependencies:
   eslint-config-prettier: 8.5.0_eslint@8.11.0
   eslint-plugin-import: 2.25.4_eslint@8.11.0
   eslint-plugin-jsx-a11y: 6.5.1_eslint@8.11.0
-  eslint-plugin-solid: 0.4.5_eslint@8.11.0+typescript@4.6.3
+  eslint-plugin-solid: 0.4.6_eslint@8.11.0+typescript@4.6.3
   eslint-plugin-tailwindcss: 3.5.0_autoprefixer@10.4.4
   jsdom: 19.0.0
   postcss: 8.4.12
@@ -6516,8 +6516,8 @@ packages:
       minimatch: 3.1.2
     dev: true
 
-  /eslint-plugin-solid/0.4.5_eslint@8.11.0+typescript@4.6.3:
-    resolution: {integrity: sha512-2QWWjks/seg2QrIi5fbWz3CWGrZoTQkwmFglR7Eg4y8rKFNWVbjeCiEhg1ScMAWaOvo/uzZkEs1Td8pvOb+E9w==}
+  /eslint-plugin-solid/0.4.6_eslint@8.11.0+typescript@4.6.3:
+    resolution: {integrity: sha512-XYF2Xoa73XEf7Q7n0tdHveTUWp6Kq0jkegnB3vvtMvP1cGJXgfbDOiN7X4TxpE9fj16NI63ruOnxXfIn4EsGUg==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
       eslint: ^6.0.0 || ^7.0.0 || ^8.0.0
