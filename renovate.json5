@@ -19,35 +19,29 @@
   },
   packageRules: [
     {
-      groupName: 'Solid',
-      matchPackageNames: [
-        'solid-js',
-        'solid-app-router',
-        'babel-preset-solid',
-        'eslint-plugin-solid',
-        'vite-plugin-solid',
-      ],
-    },
-    {
       groupName: 'Typescript',
       matchPackageNames: ['typescript'],
     },
     {
-      groupName: 'CSS families',
+      groupName: 'Solid families',
+      matchPackageNames: ['solid-js'],
+    },
+    {
+      groupName: 'Routing families',
+      matchPackageNames: ['solid-app-router'],
+    },
+    {
+      groupName: 'Styling families',
       matchPackageNames: ['tailwindcss', 'postcss', 'autoprefixer'],
     },
     {
-      groupName: 'Builder families',
-      matchPackageNames: ['vite'],
+      groupName: 'ESLint families',
+      matchPackageNames: ['eslint'],
+      matchPackagePatterns: ['^eslint', '^@typescript-eslint'],
     },
     {
-      groupName: 'Babel families',
-      matchPackagePatterns: ['^@babel'],
-    },
-    {
-      groupName: 'Lint families',
-      matchPackageNames: ['eslint', 'prettier'],
-      matchPackagePatterns: ['^eslint-', '^prettier-', '^@typescript-eslint'],
+      groupName: 'Formatter families',
+      matchPackageNames: ['prettier'],
     },
     {
       groupName: 'Test families',
@@ -56,6 +50,15 @@
     {
       groupName: 'Storybook families',
       matchPackagePatterns: ['^@storybook'],
+    },
+    {
+      groupName: 'Builder families',
+      matchPackageNames: ['vite', 'vite-plugin-solid'],
+    },
+    {
+      groupName: 'Babel families',
+      matchPackageNames: ['babel-preset-solid'],
+      matchPackagePatterns: ['^@babel'],
     },
   ],
 }
