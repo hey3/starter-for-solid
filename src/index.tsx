@@ -1,9 +1,8 @@
-import { Component } from 'solid-js'
 import { render } from 'solid-js/web'
+import { App } from './app'
 import './index.css'
 
-const App: Component = () => {
-  return <div>Hello World!</div>
-}
+const rootElement = document.getElementById('root')
+if (!rootElement) throw new Error('Failed to find the root element')
 
-render(() => <App />, document.getElementById('root') as HTMLElement)
+render(() => <App />, rootElement)
