@@ -29,6 +29,7 @@ module.exports = {
         'plugin:import/typescript',
         'eslint-config-prettier',
       ],
+      plugins: ['unused-imports'],
       rules: {
         'import/export': 'off',
         'import/order': [
@@ -38,6 +39,7 @@ module.exports = {
             alphabetize: { order: 'asc', caseInsensitive: true },
           },
         ],
+        'unused-imports/no-unused-imports': 'error',
         '@typescript-eslint/no-unused-vars': ['error'],
         '@typescript-eslint/explicit-function-return-type': [
           'warn',
