@@ -23,5 +23,5 @@ jobs:
       - name: Run test
         run: pnpm test
 
-      - name: Run build
+      - name: Run compile
         run: pnpm build
