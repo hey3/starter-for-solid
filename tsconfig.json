@@ -1,14 +1,13 @@
 {
   "compilerOptions": {
     "baseUrl": ".",
-    "target": "es5",
+    "target": "ESNext",
     "module": "ESNext",
     "moduleResolution": "node",
-    "lib": ["ESNext", "DOM", "DOM.Iterable"],
     "jsx": "preserve",
     "jsxImportSource": "solid-js",
-    "newLine": "lf",
     "types": ["vite/client", "vitest/globals"],
+    "typeRoots": ["node_modules/@types", "src/types"],
     "strict": true,
     "exactOptionalPropertyTypes": true,
     "esModuleInterop": true,
@@ -20,7 +19,5 @@
     "noImplicitReturns": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true
-  },
-  "include": ["**/*.ts", "**/*.tsx"],
-  "exclude": ["node_modules"]
+  }
 }
