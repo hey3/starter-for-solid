@@ -33,6 +33,7 @@
     "build-storybook": "build-storybook",
     "test": "vitest run --passWithNoTests",
     "test:coverage": "vitest run --passWithNoTests --coverage",
+    "test:virtual-update": "vitest run -u",
     "typecheck": "tsc --project tsconfig.json --pretty --noEmit --incremental false"
   },
   "dependencies": {
