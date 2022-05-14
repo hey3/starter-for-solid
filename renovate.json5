@@ -24,7 +24,7 @@
     },
     {
       groupName: 'Solid families',
-      matchPackageNames: ['solid-js'],
+      matchPackageNames: ['solid-js', 'babel-preset-solid'],
     },
     {
       groupName: 'Routing families',
@@ -57,7 +57,6 @@
     },
     {
       groupName: 'Babel families',
-      matchPackageNames: ['babel-preset-solid'],
       matchPackagePatterns: ['^@babel'],
     },
   ],
