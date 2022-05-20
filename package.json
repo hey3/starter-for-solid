@@ -39,7 +39,7 @@
   },
   "dependencies": {
     "solid-app-router": "0.3.2",
-    "solid-js": "1.4.1"
+    "solid-js": "1.4.2"
   },
   "devDependencies": {
     "@babel/preset-typescript": "7.16.7",
@@ -50,7 +50,7 @@
     "@typescript-eslint/eslint-plugin": "5.23.0",
     "@typescript-eslint/parser": "5.23.0",
     "autoprefixer": "10.4.7",
-    "babel-preset-solid": "1.4.0",
+    "babel-preset-solid": "1.4.2",
     "eslint": "8.15.0",
     "eslint-config-prettier": "8.5.0",
     "eslint-plugin-import": "2.26.0",
