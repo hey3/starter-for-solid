@@ -12,6 +12,7 @@ export default defineConfig({
     deps: {
       inline: [/solid-js/],
     },
+    passWithNoTests: true,
   },
   resolve: {
     conditions: ['development', 'browser'],

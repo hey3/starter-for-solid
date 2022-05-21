@@ -32,9 +32,9 @@
     "lint:fix": "eslint --fix './src/**/*.{ts,tsx}'",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "test": "vitest run --passWithNoTests",
-    "test:coverage": "vitest run --passWithNoTests --coverage",
-    "test:virtual-update": "vitest run -u",
+    "test": "vitest run",
+    "test:coverage": "vitest run --coverage",
+    "test:virtual-update": "vitest run --update",
     "typecheck": "tsc --project tsconfig.json --pretty --noEmit --incremental false"
   },
   "dependencies": {
