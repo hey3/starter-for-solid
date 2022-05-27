@@ -21,7 +21,7 @@ specifiers:
   postcss: 8.4.14
   prettier: 2.6.2
   solid-app-router: 0.3.3
-  solid-js: 1.4.2
+  solid-js: 1.4.3
   tailwindcss: 3.0.24
   typescript: 4.6.4
   vite: 2.9.9
@@ -29,8 +29,8 @@ specifiers:
   vitest: 0.12.9
 
 dependencies:
-  solid-app-router: 0.3.3_solid-js@1.4.2
-  solid-js: 1.4.2
+  solid-app-router: 0.3.3_solid-js@1.4.3
+  solid-js: 1.4.3
 
 devDependencies:
   '@babel/preset-typescript': 7.17.12
@@ -6030,7 +6030,7 @@ packages:
     dev: true
 
   /default-browser-id/1.0.4:
-    resolution: {integrity: sha1-5Z0JpdFXuCi4dsJoFuYcPSosIDo=}
+    resolution: {integrity: sha512-qPy925qewwul9Hifs+3sx1ZYn14obHxpkX+mPD369w4Rzg+YkJBgi3SOvwUq81nWSjqGUegIgEPwD8u+HUnxlw==}
     engines: {node: '>=0.10.0'}
     hasBin: true
     requiresBuild: true
@@ -11090,18 +11090,18 @@ packages:
       - supports-color
     dev: true
 
-  /solid-app-router/0.3.3_solid-js@1.4.2:
+  /solid-app-router/0.3.3_solid-js@1.4.3:
     resolution: {integrity: sha512-JEn0gi6q8Pq9M2Ml3CLeNzenxuBrOrQg4aQyeIZTNjOAeEil/9YiaAJk+US78sIdVcqflTneN5KZgJMIGJ0rFQ==}
     peerDependencies:
       solid-js: ^1.3.5
     dependencies:
-      solid-js: 1.4.2
+      solid-js: 1.4.3
     dev: false
 
-  /solid-js/1.4.2:
-    resolution: {integrity: sha512-IU5yKuT8P/n5F5g8j1rTXqxUdPYmoZDk/074TG94AEYf/nyXAeG82BSge4/lLIbCfUcnGUJ6DRdebIjujOAYyg==}
+  /solid-js/1.4.3:
+    resolution: {integrity: sha512-3uh2cbT4ICronIasLAxycF6SVgvqcfwFCDCzlEA9CEahn1qQg8Rw8aRGiI4O51PrHcN5aPRO9knYYRCs0PgzcQ==}
 
-  /solid-refresh/0.4.0_solid-js@1.4.2:
+  /solid-refresh/0.4.0_solid-js@1.4.3:
     resolution: {integrity: sha512-5XCUz845n/sHPzKK2i2G2EeV61tAmzv6SqzqhXcPaYhrgzVy7nKTQaBpKK8InKrriq9Z2JFF/mguIU00t/73xw==}
     peerDependencies:
       solid-js: ^1.3.0
@@ -11109,7 +11109,7 @@ packages:
       '@babel/generator': 7.17.10
       '@babel/helper-module-imports': 7.16.7
       '@babel/types': 7.17.10
-      solid-js: 1.4.2
+      solid-js: 1.4.3
     dev: true
 
   /source-list-map/2.0.1:
@@ -12113,8 +12113,8 @@ packages:
       '@babel/preset-typescript': 7.17.12_@babel+core@7.17.10
       babel-preset-solid: 1.4.2_@babel+core@7.17.10
       merge-anything: 5.0.2
-      solid-js: 1.4.2
-      solid-refresh: 0.4.0_solid-js@1.4.2
+      solid-js: 1.4.3
+      solid-refresh: 0.4.0_solid-js@1.4.3
       vite: 2.9.9
     transitivePeerDependencies:
       - less
