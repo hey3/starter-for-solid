@@ -19,7 +19,7 @@ specifiers:
   eslint-plugin-unused-imports: 2.0.0
   jsdom: 19.0.0
   postcss: 8.4.14
-  prettier: 2.6.2
+  prettier: 2.7.1
   solid-app-router: 0.3.3
   solid-js: 1.4.4
   tailwindcss: 3.0.24
@@ -51,7 +51,7 @@ devDependencies:
   eslint-plugin-unused-imports: 2.0.0_tjwv4ig2otjpl5zmysfn2moz3y
   jsdom: 19.0.0
   postcss: 8.4.14
-  prettier: 2.6.2
+  prettier: 2.7.1
   tailwindcss: 3.0.24
   typescript: 4.7.4
   vite: 2.9.12
@@ -10389,8 +10389,8 @@ packages:
     hasBin: true
     dev: true
 
-  /prettier/2.6.2:
-    resolution: {integrity: sha512-PkUpF+qoXTqhOeWL9fu7As8LXsIUZ1WYaJiY/a7McAQzxjk82OF0tibkFXVCDImZtWxbvojFjerkiLb0/q8mew==}
+  /prettier/2.7.1:
+    resolution: {integrity: sha512-ujppO+MkdPqoVINuDFDRLClm7D78qbDt0/NR+wp5FqEZOoTNAjPHWj17QRhu7geIHJfcNhRk1XVQmF8Bp3ye+g==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     dev: true
