@@ -11,7 +11,7 @@ module.exports = {
       jsx: true,
     },
   },
-  ignorePatterns: ['node_modules/*'],
+  ignorePatterns: ['node_modules/*', '!.storybook'],
   extends: ['eslint:recommended'],
   overrides: [
     {

@@ -1,5 +1,6 @@
 dist
 storybook-static
+coverage
 
 # dependencies
 node_modules
