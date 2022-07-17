@@ -24,7 +24,7 @@ specifiers:
   solid-js: 1.4.7
   tailwindcss: 3.1.6
   typescript: 4.7.4
-  vite: 2.9.14
+  vite: 3.0.0
   vite-plugin-solid: 2.2.6
   vitest: 0.13.1
 
@@ -54,7 +54,7 @@ devDependencies:
   prettier: 2.7.1
   tailwindcss: 3.1.6
   typescript: 4.7.4
-  vite: 2.9.14
+  vite: 3.0.0
   vite-plugin-solid: 2.2.6
   vitest: 0.13.1_jsdom@20.0.0
 
@@ -12461,6 +12461,33 @@ packages:
       sass:
         optional: true
       stylus:
+        optional: true
+    dependencies:
+      esbuild: 0.14.48
+      postcss: 8.4.14
+      resolve: 1.22.1
+      rollup: 2.75.7
+    optionalDependencies:
+      fsevents: 2.3.2
+    dev: true
+
+  /vite/3.0.0:
+    resolution: {integrity: sha512-M7phQhY3+fRZa0H+1WzI6N+/onruwPTBTMvaj7TzgZ0v2TE+N2sdLKxJOfOv9CckDWt5C4HmyQP81xB4dwRKzA==}
+    engines: {node: '>=14.18.0'}
+    hasBin: true
+    peerDependencies:
+      less: '*'
+      sass: '*'
+      stylus: '*'
+      terser: ^5.4.0
+    peerDependenciesMeta:
+      less:
+        optional: true
+      sass:
+        optional: true
+      stylus:
+        optional: true
+      terser:
         optional: true
     dependencies:
       esbuild: 0.14.48
