@@ -42,7 +42,7 @@
     "solid-js": "1.4.7"
   },
   "devDependencies": {
-    "@babel/preset-typescript": "7.17.12",
+    "@babel/preset-typescript": "7.18.6",
     "@storybook/addon-a11y": "6.5.9",
     "@storybook/addon-essentials": "6.5.9",
     "@storybook/addon-postcss": "2.0.0",
