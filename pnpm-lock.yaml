@@ -24,7 +24,7 @@ specifiers:
   solid-js: 1.4.7
   tailwindcss: 3.1.6
   typescript: 4.7.4
-  vite: 3.0.0
+  vite: 3.0.2
   vite-plugin-solid: 2.3.0
   vitest: 0.18.1
 
@@ -54,8 +54,8 @@ devDependencies:
   prettier: 2.7.1
   tailwindcss: 3.1.6
   typescript: 4.7.4
-  vite: 3.0.0
-  vite-plugin-solid: 2.3.0_solid-js@1.4.7+vite@3.0.0
+  vite: 3.0.2
+  vite-plugin-solid: 2.3.0_solid-js@1.4.7+vite@3.0.2
   vitest: 0.18.1_jsdom@20.0.0
 
 packages:
@@ -12443,7 +12443,7 @@ packages:
       vfile-message: 2.0.4
     dev: true
 
-  /vite-plugin-solid/2.3.0_solid-js@1.4.7+vite@3.0.0:
+  /vite-plugin-solid/2.3.0_solid-js@1.4.7+vite@3.0.2:
     resolution: {integrity: sha512-N2sa54C3UZC2nN5vpj5o6YP+XdIAZW6n6xv8OasxNAcAJPFeZT7EOVvumL0V4c8hBz1yuYniMWdESY8807fVSg==}
     peerDependencies:
       solid-js: ^1.3.17
@@ -12455,14 +12455,14 @@ packages:
       merge-anything: 5.0.2
       solid-js: 1.4.7
       solid-refresh: 0.4.1_solid-js@1.4.7
-      vite: 3.0.0
+      vite: 3.0.2
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /vite/3.0.0:
-    resolution: {integrity: sha512-M7phQhY3+fRZa0H+1WzI6N+/onruwPTBTMvaj7TzgZ0v2TE+N2sdLKxJOfOv9CckDWt5C4HmyQP81xB4dwRKzA==}
-    engines: {node: '>=14.18.0'}
+  /vite/3.0.2:
+    resolution: {integrity: sha512-TAqydxW/w0U5AoL5AsD9DApTvGb2iNbGs3sN4u2VdT1GFkQVUfgUldt+t08TZgi23uIauh1TUOQJALduo9GXqw==}
+    engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
       less: '*'
@@ -12518,7 +12518,7 @@ packages:
       local-pkg: 0.4.2
       tinypool: 0.2.4
       tinyspy: 1.0.0
-      vite: 3.0.0
+      vite: 3.0.2
     transitivePeerDependencies:
       - less
       - sass
