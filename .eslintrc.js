@@ -62,7 +62,7 @@ module.exports = {
       },
     },
     {
-      files: ['*'],
+      files: ['**'],
       extends: ['prettier'],
     },
   ],
