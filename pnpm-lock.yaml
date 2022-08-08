@@ -26,7 +26,7 @@ specifiers:
   typescript: 4.7.4
   vite: 3.0.4
   vite-plugin-solid: 2.3.0
-  vitest: 0.19.1
+  vitest: 0.21.0
 
 dependencies:
   solid-app-router: 0.4.2_solid-js@1.4.8
@@ -56,7 +56,7 @@ devDependencies:
   typescript: 4.7.4
   vite: 3.0.4
   vite-plugin-solid: 2.3.0_solid-js@1.4.8+vite@3.0.4
-  vitest: 0.19.1_jsdom@20.0.0
+  vitest: 0.21.0_jsdom@20.0.0
 
 packages:
 
@@ -12397,8 +12397,8 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vitest/0.19.1_jsdom@20.0.0:
-    resolution: {integrity: sha512-E/ZXpFMUahn731wzhMBNzWRp4mGgiZFT0xdHa32cbNO0CSaHpE9hTfteEU247Gi2Dula8uXo5vvrNB6dtszmQA==}
+  /vitest/0.21.0_jsdom@20.0.0:
+    resolution: {integrity: sha512-+BQB2swk4wQdw5loOoL8esIYh/1ifAliuwj2HWHNE2F8SAl/jF7/aoCJBoXGSf/Ws19k3pH4NrWeVtcSwM0j2w==}
     engines: {node: '>=v14.16.0'}
     hasBin: true
     peerDependencies:
