@@ -15,7 +15,7 @@ specifiers:
   eslint-plugin-import: 2.26.0
   eslint-plugin-jsx-a11y: 6.6.1
   eslint-plugin-solid: 0.7.1
-  eslint-plugin-tailwindcss: 3.6.0
+  eslint-plugin-tailwindcss: 3.6.1
   eslint-plugin-unused-imports: 2.0.0
   jsdom: 20.0.0
   postcss: 8.4.16
@@ -47,7 +47,7 @@ devDependencies:
   eslint-plugin-import: 2.26.0_3bh5nkk7utn7e74vrwtv6rxmt4
   eslint-plugin-jsx-a11y: 6.6.1_eslint@8.22.0
   eslint-plugin-solid: 0.7.1_4rv7y5c6xz3vfxwhbrcxxi73bq
-  eslint-plugin-tailwindcss: 3.6.0
+  eslint-plugin-tailwindcss: 3.6.1
   eslint-plugin-unused-imports: 2.0.0_ucuinlkkm5sdcezpfpmvmgdohq
   jsdom: 20.0.0
   postcss: 8.4.16
@@ -7016,8 +7016,8 @@ packages:
       - typescript
     dev: true
 
-  /eslint-plugin-tailwindcss/3.6.0:
-    resolution: {integrity: sha512-gWLGNWHuhh5ngwkJ2sgSByanpRw2s5GdrM2ff2/w8Ho2mWh2MyGvpnFZpL4b0XT/C0WF9zlq57+vFHJOeFhMkg==}
+  /eslint-plugin-tailwindcss/3.6.1:
+    resolution: {integrity: sha512-a44pb62X6wS3j5hLqedsroYrSyOuSZ7PaTl08gJVoChzHlgyZRVpDMCw17Kj6q2zQuDqqRbNZuo8VyNWlGlVLA==}
     engines: {node: '>=12.13.0'}
     dependencies:
       fast-glob: 3.2.11
