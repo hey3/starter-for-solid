@@ -26,7 +26,7 @@ specifiers:
   typescript: 4.7.4
   vite: 3.0.9
   vite-plugin-solid: 2.3.0
-  vitest: 0.21.1
+  vitest: 0.22.1
 
 dependencies:
   solid-app-router: 0.4.2_solid-js@1.4.8
@@ -56,7 +56,7 @@ devDependencies:
   typescript: 4.7.4
   vite: 3.0.9
   vite-plugin-solid: 2.3.0_solid-js@1.4.8+vite@3.0.9
-  vitest: 0.21.1_jsdom@20.0.0
+  vitest: 0.22.1_jsdom@20.0.0
 
 packages:
 
@@ -4029,14 +4029,14 @@ packages:
     resolution: {integrity: sha512-ZUxbzKl0IfJILTS6t7ip5fQQM/J3TJYubDm3nMbgubNNYS62eXeUpoLUC8/7fJNiFYHTrGPQn7hspDUzIHX3UA==}
     dependencies:
       '@types/minimatch': 5.1.1
-      '@types/node': 16.11.56
+      '@types/node': 18.7.14
     dev: true
 
   /@types/glob/8.0.0:
     resolution: {integrity: sha512-l6NQsDDyQUVeoTynNpC9uRvCUint/gSUXQA2euwmTuWGvPY5LSDUu6tkCtJB2SvGQlJQzLaKqcGZP4//7EDveA==}
     dependencies:
       '@types/minimatch': 5.1.1
-      '@types/node': 16.11.56
+      '@types/node': 18.7.14
     dev: true
 
   /@types/graceful-fs/4.1.5:
@@ -4100,7 +4100,7 @@ packages:
   /@types/node-fetch/2.6.2:
     resolution: {integrity: sha512-DHqhlq5jeESLy19TYhLakJ07kNumXWjcDdxXsLUMJZ6ue8VZJj4kLPQVE/2mdHh3xZziNF1xppu5lwmS53HR+A==}
     dependencies:
-      '@types/node': 16.11.56
+      '@types/node': 18.7.14
       form-data: 3.0.1
     dev: true
 
@@ -4161,7 +4161,7 @@ packages:
   /@types/webpack-sources/3.2.0:
     resolution: {integrity: sha512-Ft7YH3lEVRQ6ls8k4Ff1oB4jN6oy/XmU6tQISKdhfh+1mR+viZFphS6WL0IrtDOzvefmJg5a0s7ZQoRXwqTEFg==}
     dependencies:
-      '@types/node': 16.11.56
+      '@types/node': 18.7.14
       '@types/source-list-map': 0.1.2
       source-map: 0.7.4
     dev: true
@@ -4169,7 +4169,7 @@ packages:
   /@types/webpack/4.41.32:
     resolution: {integrity: sha512-cb+0ioil/7oz5//7tZUSwbrSAN/NWHrQylz5cW8G0dWTcF/g+/dSdMlKVZspBYuMAN1+WnwHrkxiRrLcwd0Heg==}
     dependencies:
-      '@types/node': 16.11.56
+      '@types/node': 18.7.14
       '@types/tapable': 1.0.8
       '@types/uglify-js': 3.17.0
       '@types/webpack-sources': 3.2.0
@@ -8806,7 +8806,7 @@ packages:
     resolution: {integrity: sha512-7vuh85V5cdDofPyxn58nrPjBktZo0u9x1g8WtjQol+jZDaE+fhN+cIvTj11GndBnMnyfrUOG1sZQxCdjKh+DKg==}
     engines: {node: '>= 10.13.0'}
     dependencies:
-      '@types/node': 16.11.56
+      '@types/node': 18.7.14
       merge-stream: 2.0.0
       supports-color: 8.1.1
     dev: true
@@ -12392,15 +12392,14 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vitest/0.21.1_jsdom@20.0.0:
-    resolution: {integrity: sha512-WBIxuFmIDPuK47GO6Lu9eNeRMqHj/FWL3dk73OHH3eyPPWPiu+UB3QHLkLK2PEggCqJW4FaWoWg8R68S7p9+9Q==}
+  /vitest/0.22.1_jsdom@20.0.0:
+    resolution: {integrity: sha512-+x28YTnSLth4KbXg7MCzoDAzPJlJex7YgiZbUh6YLp0/4PqVZ7q7/zyfdL0OaPtKTpNiQFPpMC8Y2MSzk8F7dw==}
     engines: {node: '>=v14.16.0'}
     hasBin: true
     peerDependencies:
       '@edge-runtime/vm': '*'
       '@vitest/browser': '*'
       '@vitest/ui': '*'
-      c8: '*'
       happy-dom: '*'
       jsdom: '*'
     peerDependenciesMeta:
@@ -12409,8 +12408,6 @@ packages:
       '@vitest/browser':
         optional: true
       '@vitest/ui':
-        optional: true
-      c8:
         optional: true
       happy-dom:
         optional: true
