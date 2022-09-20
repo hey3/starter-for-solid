@@ -1,9 +1,10 @@
+import type { DecoratorFunction } from '@storybook/addons'
 import { render } from 'solid-js/web'
 import '../src/index.css'
 
-let disposeStory
+let disposeStory: () => void
 
-export const decorators = [
+export const decorators: DecoratorFunction<Element>[] = [
   Story => {
     if (disposeStory) {
       disposeStory()
