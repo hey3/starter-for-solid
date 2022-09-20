@@ -24,7 +24,7 @@
     },
     {
       groupName: 'Solid families',
-      matchPackageNames: ['solid-js', 'babel-preset-solid'],
+      matchPackageNames: ['solid-js'],
     },
     {
       groupName: 'Routing families',
@@ -54,10 +54,6 @@
     {
       groupName: 'Builder families',
       matchPackageNames: ['vite', 'vite-plugin-solid'],
-    },
-    {
-      groupName: 'Babel families',
-      matchPackagePatterns: ['^@babel'],
     },
   ],
 }
