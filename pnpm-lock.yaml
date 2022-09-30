@@ -3,7 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@storybook/addon-a11y': 6.5.12
   '@storybook/addon-essentials': 6.5.12
-  '@storybook/builder-vite': 0.2.2
+  '@storybook/builder-vite': 0.2.3
   '@storybook/html': 6.5.12
   '@typescript-eslint/eslint-plugin': 5.37.0
   '@typescript-eslint/parser': 5.37.0
@@ -33,7 +33,7 @@ dependencies:
 devDependencies:
   '@storybook/addon-a11y': 6.5.12
   '@storybook/addon-essentials': 6.5.12_55tffxr6vh7qz2q3bj4yrqpb3q
-  '@storybook/builder-vite': 0.2.2_2woxo3mnhgpftzyt6w7yklqrm4
+  '@storybook/builder-vite': 0.2.3_2woxo3mnhgpftzyt6w7yklqrm4
   '@storybook/html': 6.5.12_irgkl5vooow2ydyo6aokmferha
   '@typescript-eslint/eslint-plugin': 5.37.0_22c5fnooleyfkzrkkgdmel5kmi
   '@typescript-eslint/parser': 5.37.0_irgkl5vooow2ydyo6aokmferha
@@ -3050,20 +3050,29 @@ packages:
       util-deprecate: 1.0.2
     dev: true
 
-  /@storybook/builder-vite/0.2.2_2woxo3mnhgpftzyt6w7yklqrm4:
-    resolution: {integrity: sha512-kFY/Rbk+Bu5KmXOCP8CMxp6gfbNGGyNZwikWZe21NHcrVzwHg/aTs+MR37maRqlWcpJvTZmbkKMHak0+vDqpvw==}
+  /@storybook/builder-vite/0.2.3_2woxo3mnhgpftzyt6w7yklqrm4:
+    resolution: {integrity: sha512-qoYLMscM8ih7rYS9vU6WER2ADW28dB/3/TPg/27Q/shJM3yy/++us62arWAa3TJoFx1cB2MhAqhJGYyNH09wuQ==}
     peerDependencies:
       '@storybook/mdx2-csf': ^0.0.3
+      '@sveltejs/vite-plugin-svelte': ^1.0.0
+      '@vitejs/plugin-vue': ^3.0.0
       vite: '>= 3.0.0'
+      vue-docgen-api: ^4.40.0
     peerDependenciesMeta:
       '@storybook/mdx2-csf':
         optional: true
+      '@sveltejs/vite-plugin-svelte':
+        optional: true
+      '@vitejs/plugin-vue':
+        optional: true
+      vue-docgen-api:
+        optional: true
     dependencies:
       '@joshwooding/vite-plugin-react-docgen-typescript': 0.0.5_nijwsw6kalmosfobgutypnhyhi
-      '@rollup/pluginutils': 4.2.1
       '@storybook/core-common': 6.5.12_irgkl5vooow2ydyo6aokmferha
       '@storybook/mdx1-csf': 0.0.4
       '@storybook/node-logger': 6.5.12
+      '@storybook/semver': 7.3.2
       '@storybook/source-loader': 6.5.12
       '@vitejs/plugin-react': 2.1.0_vite@3.1.4
       ast-types: 0.14.2
@@ -9337,7 +9346,7 @@ packages:
     dev: true
 
   /lodash.uniq/4.5.0:
-    resolution: {integrity: sha1-0CJTc662Uq3BvILklFM5qEJ1R3M=}
+    resolution: {integrity: sha512-xfBaXQd9ryd9dlSDvnvI0lvxfLJlYAZzXomUYzLKtUeOQvOP5piqAWuGtrhWeqaXK9hhoM/iyJc5AV+XfsX3HQ==}
     dev: true
 
   /lodash/4.17.21:
@@ -12229,7 +12238,7 @@ packages:
     dev: true
 
   /trim/0.0.1:
-    resolution: {integrity: sha1-WFhUf2spB1fulczMZm+1AITEYN0=}
+    resolution: {integrity: sha512-YzQV+TZg4AxpKxaTHK3c3D+kRDCGVEE7LemdlQZoQXn0iennk10RsIoY6ikzAqJTc9Xjl9C1/waHom/J86ziAQ==}
     dev: true
 
   /trough/1.0.5:
@@ -12285,7 +12294,7 @@ packages:
     dev: true
 
   /tty-browserify/0.0.0:
-    resolution: {integrity: sha1-oVe6QC2iTpv5V/mqadUk7tQpAaY=}
+    resolution: {integrity: sha512-JVa5ijo+j/sOoHGjw0sxw734b1LhBkQ3bvUGNdxnVXDCX81Yx7TFgnZygxrIIWn23hbfTaMYLwRmAxFyDuFmIw==}
     dev: true
 
   /type-check/0.3.2:
