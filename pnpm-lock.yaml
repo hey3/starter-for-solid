@@ -3,7 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@storybook/addon-a11y': 6.5.12
   '@storybook/addon-essentials': 6.5.12
-  '@storybook/builder-vite': 0.2.3
+  '@storybook/builder-vite': 0.2.4
   '@storybook/html': 6.5.12
   '@typescript-eslint/eslint-plugin': 5.37.0
   '@typescript-eslint/parser': 5.37.0
@@ -33,7 +33,7 @@ dependencies:
 devDependencies:
   '@storybook/addon-a11y': 6.5.12
   '@storybook/addon-essentials': 6.5.12_kyj6nfcdjtraetmr6v6ovtaf3i
-  '@storybook/builder-vite': 0.2.3_yhiys4pztkertaruj7y5rfjyue
+  '@storybook/builder-vite': 0.2.4_yhiys4pztkertaruj7y5rfjyue
   '@storybook/html': 6.5.12_abkyjrvwkq25uefwggm6hc3u2a
   '@typescript-eslint/eslint-plugin': 5.37.0_itd4u5zhveqlgpvls63jk7zhia
   '@typescript-eslint/parser': 5.37.0_abkyjrvwkq25uefwggm6hc3u2a
@@ -3059,8 +3059,8 @@ packages:
       util-deprecate: 1.0.2
     dev: true
 
-  /@storybook/builder-vite/0.2.3_yhiys4pztkertaruj7y5rfjyue:
-    resolution: {integrity: sha512-qoYLMscM8ih7rYS9vU6WER2ADW28dB/3/TPg/27Q/shJM3yy/++us62arWAa3TJoFx1cB2MhAqhJGYyNH09wuQ==}
+  /@storybook/builder-vite/0.2.4_yhiys4pztkertaruj7y5rfjyue:
+    resolution: {integrity: sha512-SYAIheTva4Dpqi7Xs+H6oqPOpVA3xu+1k+OnLPKfgR6sVEnLHvPKn80n3NOKdqXoXkO0ou9OVnZaS2A55vnx+A==}
     peerDependencies:
       '@storybook/mdx2-csf': ^0.0.3
       '@sveltejs/vite-plugin-svelte': ^1.0.0
