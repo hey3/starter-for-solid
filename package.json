@@ -42,10 +42,10 @@
     "solid-js": "1.5.9"
   },
   "devDependencies": {
-    "@storybook/addon-a11y": "6.5.12",
-    "@storybook/addon-essentials": "6.5.12",
-    "@storybook/builder-vite": "0.2.4",
-    "@storybook/html": "6.5.12",
+    "@storybook/addon-a11y": "6.5.13",
+    "@storybook/addon-essentials": "6.5.13",
+    "@storybook/builder-vite": "0.2.5",
+    "@storybook/html": "6.5.13",
     "@typescript-eslint/eslint-plugin": "5.40.1",
     "@typescript-eslint/parser": "5.40.1",
     "autoprefixer": "10.4.12",
