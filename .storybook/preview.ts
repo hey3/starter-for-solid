@@ -1,6 +1,7 @@
 import type { DecoratorFunction } from '@storybook/addons'
 import { render } from 'solid-js/web'
-import '../src/index.css'
+import '../src/styles/reset.css'
+import '../src/styles/global.css'
 
 let disposeStory: () => void
 
