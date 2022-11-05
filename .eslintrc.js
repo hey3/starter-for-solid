@@ -45,7 +45,7 @@ module.exports = {
       env: {
         browser: true,
       },
-      extends: ['plugin:jsx-a11y/recommended', 'plugin:tailwindcss/recommended'],
+      extends: ['plugin:jsx-a11y/recommended'],
     },
     {
       files: ['**/*.ts?(x)'],
