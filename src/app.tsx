@@ -1,5 +1,8 @@
-import type { Component } from 'solid-js'
+import { Router } from 'solid-app-router'
+import { Component } from 'solid-js'
 
-export const App: Component = () => {
-  return <div>Hello World!</div>
-}
+export const App: Component = () => (
+  <Router>
+    <div>Hello World!</div>
+  </Router>
+)

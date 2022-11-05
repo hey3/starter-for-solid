@@ -33,7 +33,6 @@ This application make active usage of
 
 - [Solid](https://www.solidjs.com/)
 - [TypeScript](https://www.typescriptlang.org/)
-- [tailwindcss](https://tailwindcss.com/)
 - [vite](https://ja.vitejs.dev/)
 - [vitest](https://vitest.dev/)
 - [Storybook](https://storybook.js.org/)

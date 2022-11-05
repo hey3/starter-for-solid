@@ -31,13 +31,13 @@
       matchPackageNames: ['solid-app-router'],
     },
     {
-      groupName: 'Styling families',
-      matchPackageNames: ['tailwindcss', 'postcss', 'autoprefixer'],
-    },
-    {
       groupName: 'ESLint families',
       matchPackageNames: ['eslint'],
       matchPackagePatterns: ['^eslint', '^@typescript-eslint'],
+    },
+    {
+      groupName: 'StyleLint families',
+      matchPackagePatterns: ['^stylelint'],
     },
     {
       groupName: 'Formatter families',
