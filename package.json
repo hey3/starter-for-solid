@@ -70,7 +70,7 @@
     "typescript": "4.8.4",
     "vite": "3.2.5",
     "vite-plugin-solid": "2.4.0",
-    "vitest": "0.25.3"
+    "vitest": "0.25.6"
   },
   "dependenciesComments": {
     "storybook": "maybe need --openssl-legacy-provider until v7 if node18"
