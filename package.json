@@ -51,7 +51,7 @@
   "devDependencies": {
     "@storybook/addon-a11y": "6.5.14",
     "@storybook/addon-essentials": "6.5.14",
-    "@storybook/builder-vite": "0.2.5",
+    "@storybook/builder-vite": "0.2.6",
     "@storybook/html": "6.5.14",
     "@typescript-eslint/eslint-plugin": "5.46.1",
     "@typescript-eslint/parser": "5.46.1",
