@@ -46,7 +46,7 @@
   },
   "dependencies": {
     "solid-app-router": "0.4.2",
-    "solid-js": "1.6.6"
+    "solid-js": "1.6.8"
   },
   "devDependencies": {
     "@storybook/addon-a11y": "6.5.15",
