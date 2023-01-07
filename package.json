@@ -62,7 +62,7 @@
     "eslint-plugin-solid": "0.9.1",
     "eslint-plugin-unused-imports": "2.0.0",
     "jsdom": "20.0.3",
-    "prettier": "2.8.1",
+    "prettier": "2.8.2",
     "stylelint": "14.16.1",
     "stylelint-config-prettier": "9.0.4",
     "stylelint-config-recess-order": "3.1.0",
