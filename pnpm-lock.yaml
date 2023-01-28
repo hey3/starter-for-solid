@@ -11,7 +11,7 @@ specifiers:
   eslint-config-prettier: 8.6.0
   eslint-plugin-import: 2.27.5
   eslint-plugin-jsx-a11y: 6.7.1
-  eslint-plugin-solid: 0.9.3
+  eslint-plugin-solid: 0.9.4
   eslint-plugin-unused-imports: 2.0.0
   jsdom: 21.0.0
   prettier: 2.8.3
@@ -41,7 +41,7 @@ devDependencies:
   eslint-config-prettier: 8.6.0_eslint@8.32.0
   eslint-plugin-import: 2.27.5_2l6piu6guil2f63lj3qmhzbnn4
   eslint-plugin-jsx-a11y: 6.7.1_eslint@8.32.0
-  eslint-plugin-solid: 0.9.3_7uibuqfxkfaozanbtbziikiqje
+  eslint-plugin-solid: 0.9.4_7uibuqfxkfaozanbtbziikiqje
   eslint-plugin-unused-imports: 2.0.0_virssgr5omih4ylyae2gddvmxu
   jsdom: 21.0.0
   prettier: 2.8.3
@@ -7259,8 +7259,8 @@ packages:
       semver: 6.3.0
     dev: true
 
-  /eslint-plugin-solid/0.9.3_7uibuqfxkfaozanbtbziikiqje:
-    resolution: {integrity: sha512-UoCoFwN5FjkspugmBTZrQYgX0Vr9eaPufY3Hl1sVqGhpmlLCkPua1Mgt+BW/d1q1k1XotAZhu0gIiWOKiJ/KBw==}
+  /eslint-plugin-solid/0.9.4_7uibuqfxkfaozanbtbziikiqje:
+    resolution: {integrity: sha512-AGS7XnkepV2jiFwBMSg3FW7GKe6uJwgx65nnRC7I6s0dbV7rGpouwj9KDkXV5NJHQENxACeOLUTgjyMi3JeHNw==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
       eslint: ^6.0.0 || ^7.0.0 || ^8.0.0
