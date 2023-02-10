@@ -18,7 +18,7 @@ specifiers:
   solid-app-router: 0.4.2
   solid-js: 1.6.10
   stylelint: 14.16.1
-  stylelint-config-prettier: 9.0.4
+  stylelint-config-prettier: 9.0.5
   stylelint-config-recess-order: 3.1.0
   stylelint-config-standard: 29.0.0
   typescript: 4.9.4
@@ -46,7 +46,7 @@ devDependencies:
   jsdom: 21.0.0
   prettier: 2.8.4
   stylelint: 14.16.1
-  stylelint-config-prettier: 9.0.4_stylelint@14.16.1
+  stylelint-config-prettier: 9.0.5_stylelint@14.16.1
   stylelint-config-recess-order: 3.1.0_stylelint@14.16.1
   stylelint-config-standard: 29.0.0_stylelint@14.16.1
   typescript: 4.9.4
@@ -12254,12 +12254,12 @@ packages:
       inline-style-parser: 0.1.1
     dev: true
 
-  /stylelint-config-prettier/9.0.4_stylelint@14.16.1:
-    resolution: {integrity: sha512-38nIGTGpFOiK5LjJ8Ma1yUgpKENxoKSOhbDNSemY7Ep0VsJoXIW9Iq/2hSt699oB9tReynfWicTAoIHiq8Rvbg==}
+  /stylelint-config-prettier/9.0.5_stylelint@14.16.1:
+    resolution: {integrity: sha512-U44lELgLZhbAD/xy/vncZ2Pq8sh2TnpiPvo38Ifg9+zeioR+LAkHu0i6YORIOxFafZoVg0xqQwex6e6F25S5XA==}
     engines: {node: '>= 12'}
     hasBin: true
     peerDependencies:
-      stylelint: '>=11.0.0'
+      stylelint: '>= 11.x < 15'
     dependencies:
       stylelint: 14.16.1
     dev: true
