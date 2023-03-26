@@ -14,7 +14,7 @@ specifiers:
   eslint-plugin-solid: 0.11.0
   eslint-plugin-unused-imports: 2.0.0
   jsdom: 21.1.1
-  prettier: 2.8.4
+  prettier: 2.8.7
   solid-app-router: 0.4.2
   solid-js: 1.6.15
   stylelint: 15.3.0
@@ -43,7 +43,7 @@ devDependencies:
   eslint-plugin-solid: 0.11.0_vgl77cfdswitgr47lm5swmv43m
   eslint-plugin-unused-imports: 2.0.0_dchlkxfdm6cbfc25bfo3oeha6e
   jsdom: 21.1.1
-  prettier: 2.8.4
+  prettier: 2.8.7
   stylelint: 15.3.0
   stylelint-config-recess-order: 4.0.0_stylelint@15.3.0
   stylelint-config-standard: 31.0.0_stylelint@15.3.0
@@ -10881,8 +10881,8 @@ packages:
     hasBin: true
     dev: true
 
-  /prettier/2.8.4:
-    resolution: {integrity: sha512-vIS4Rlc2FNh0BySk3Wkd6xmwxB0FpOndW5fisM5H8hsZSxU2VWVB5CWIkIjWvrHjIhxk2g3bfMKM87zNTrZddw==}
+  /prettier/2.8.7:
+    resolution: {integrity: sha512-yPngTo3aXUUmyuTjeTUT75txrf+aMh9FiD7q9ZE/i6r0bPb22g4FsE6Y338PQX1bmfy08i9QQCB7/rcUAVntfw==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     dev: true
