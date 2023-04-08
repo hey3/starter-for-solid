@@ -49,6 +49,7 @@
     },
     {
       groupName: 'Storybook families',
+      matchPackageNames: ['storybook'],
       matchPackagePatterns: ['^@storybook'],
     },
     {
