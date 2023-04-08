@@ -3,7 +3,7 @@
     "baseUrl": ".",
     "target": "ESNext",
     "module": "ESNext",
-    "moduleResolution": "node",
+    "moduleResolution": "bundler",
     "jsx": "preserve",
     "jsxImportSource": "solid-js",
     "types": ["vite/client", "vitest/globals"],
