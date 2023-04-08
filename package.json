@@ -49,10 +49,10 @@
     "solid-js": "1.7.3"
   },
   "devDependencies": {
-    "@storybook/addon-a11y": "6.5.16",
-    "@storybook/addon-essentials": "6.5.16",
-    "@storybook/builder-vite": "0.4.2",
-    "@storybook/html": "6.5.16",
+    "@storybook/addon-a11y": "7.0.2",
+    "@storybook/addon-essentials": "7.0.2",
+    "@storybook/builder-vite": "7.0.2",
+    "@storybook/html": "7.0.2",
     "@typescript-eslint/eslint-plugin": "5.57.1",
     "@typescript-eslint/parser": "5.57.1",
     "eslint": "8.37.0",
