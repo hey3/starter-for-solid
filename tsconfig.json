@@ -1,13 +1,11 @@
 {
   "compilerOptions": {
-    "baseUrl": ".",
     "target": "ESNext",
     "module": "ESNext",
     "moduleResolution": "bundler",
     "jsx": "preserve",
     "jsxImportSource": "solid-js",
     "types": ["vite/client", "vitest/globals"],
-    "typeRoots": ["node_modules/@types", "src/types"],
     "strict": true,
     "exactOptionalPropertyTypes": true,
     "esModuleInterop": true,
