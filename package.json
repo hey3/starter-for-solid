@@ -49,10 +49,10 @@
     "solid-js": "1.7.7"
   },
   "devDependencies": {
-    "@storybook/addon-a11y": "7.0.26",
-    "@storybook/addon-essentials": "7.0.26",
-    "@storybook/html": "7.0.26",
-    "@storybook/html-vite": "7.0.26",
+    "@storybook/addon-a11y": "7.0.27",
+    "@storybook/addon-essentials": "7.0.27",
+    "@storybook/html": "7.0.27",
+    "@storybook/html-vite": "7.0.27",
     "@typescript-eslint/eslint-plugin": "5.60.1",
     "@typescript-eslint/parser": "5.60.1",
     "eslint": "8.43.0",
@@ -64,7 +64,7 @@
     "eslint-plugin-unused-imports": "2.0.0",
     "jsdom": "22.1.0",
     "prettier": "2.8.8",
-    "storybook": "7.0.26",
+    "storybook": "7.0.27",
     "stylelint": "15.9.0",
     "stylelint-config-recess-order": "4.2.0",
     "stylelint-config-standard": "33.0.0",
