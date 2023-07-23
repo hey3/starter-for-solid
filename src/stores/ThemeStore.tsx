@@ -12,7 +12,7 @@ type ThemeContext = [
   state: ThemeContextState,
   actions: {
     toggleTheme: () => void
-  }
+  },
 ]
 
 const ThemeContext = createContext<ThemeContext | null>(null)
