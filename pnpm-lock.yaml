@@ -24,7 +24,7 @@ devDependencies:
     version: 7.2.3(@babel/core@7.22.9)
   '@storybook/html-vite':
     specifier: 7.2.3
-    version: 7.2.3(@babel/core@7.22.9)(react-dom@18.2.0)(react@18.2.0)(typescript@5.1.6)(vite@4.4.8)
+    version: 7.2.3(@babel/core@7.22.9)(react-dom@18.2.0)(react@18.2.0)(typescript@5.1.6)(vite@4.4.9)
   '@typescript-eslint/eslint-plugin':
     specifier: 6.2.1
     version: 6.2.1(@typescript-eslint/parser@6.2.1)(eslint@8.46.0)(typescript@5.1.6)
@@ -74,11 +74,11 @@ devDependencies:
     specifier: 5.1.6
     version: 5.1.6
   vite:
-    specifier: 4.4.8
-    version: 4.4.8(@types/node@20.4.8)
+    specifier: 4.4.9
+    version: 4.4.9(@types/node@20.4.8)
   vite-plugin-solid:
     specifier: 2.7.0
-    version: 2.7.0(solid-js@1.7.11)(vite@4.4.8)
+    version: 2.7.0(solid-js@1.7.11)(vite@4.4.9)
   vitest:
     specifier: 0.33.0
     version: 0.33.0(jsdom@22.1.0)
@@ -2683,7 +2683,7 @@ packages:
       - supports-color
     dev: true
 
-  /@storybook/builder-vite@7.2.3(typescript@5.1.6)(vite@4.4.8):
+  /@storybook/builder-vite@7.2.3(typescript@5.1.6)(vite@4.4.9):
     resolution: {integrity: sha512-DmR2rdBJ9ziC3flwHIafAVuLXn72VOXrZPrMycuUO/rfiJE41J685DfvZwpFrKPLNQRLJ3IXBqD6pTZ2cxG79Q==}
     peerDependencies:
       '@preact/preset-vite': '*'
@@ -2718,7 +2718,7 @@ packages:
       remark-slug: 6.1.0
       rollup: 3.27.2
       typescript: 5.1.6
-      vite: 4.4.8(@types/node@20.4.8)
+      vite: 4.4.9(@types/node@20.4.8)
     transitivePeerDependencies:
       - encoding
       - supports-color
@@ -2995,12 +2995,12 @@ packages:
     resolution: {integrity: sha512-FcOqPAXACP0I3oJ/ws6/rrPT9WGhu915Cg8D02a9YxLo0DE9zI+a9A5gRGvmQ09fiWPukqI8ZAEoQEdWUKMQdQ==}
     dev: true
 
-  /@storybook/html-vite@7.2.3(@babel/core@7.22.9)(react-dom@18.2.0)(react@18.2.0)(typescript@5.1.6)(vite@4.4.8):
+  /@storybook/html-vite@7.2.3(@babel/core@7.22.9)(react-dom@18.2.0)(react@18.2.0)(typescript@5.1.6)(vite@4.4.9):
     resolution: {integrity: sha512-9YYGFRItAzNDDFFN/bWH1sCGbXoqO7Hxv0MqL7ff5pq1WTVsUj3FprQww+z/kfdNW/m5ZumyUi05MAxXcCHGEw==}
     engines: {node: ^14.18 || >=16}
     dependencies:
       '@storybook/addons': 7.2.3(react-dom@18.2.0)(react@18.2.0)
-      '@storybook/builder-vite': 7.2.3(typescript@5.1.6)(vite@4.4.8)
+      '@storybook/builder-vite': 7.2.3(typescript@5.1.6)(vite@4.4.9)
       '@storybook/client-api': 7.2.3
       '@storybook/core-server': 7.2.3
       '@storybook/html': 7.2.3(@babel/core@7.22.9)
@@ -8836,7 +8836,7 @@ packages:
       mlly: 1.4.0
       pathe: 1.1.1
       picocolors: 1.0.0
-      vite: 4.4.8(@types/node@20.4.8)
+      vite: 4.4.9(@types/node@20.4.8)
     transitivePeerDependencies:
       - '@types/node'
       - less
@@ -8848,7 +8848,7 @@ packages:
       - terser
     dev: true
 
-  /vite-plugin-solid@2.7.0(solid-js@1.7.11)(vite@4.4.8):
+  /vite-plugin-solid@2.7.0(solid-js@1.7.11)(vite@4.4.9):
     resolution: {integrity: sha512-avp/Jl5zOp/Itfo67xtDB2O61U7idviaIp4mLsjhCa13PjKNasz+IID0jYTyqUp9SFx6/PmBr6v4KgDppqompg==}
     peerDependencies:
       solid-js: ^1.7.2
@@ -8861,14 +8861,14 @@ packages:
       merge-anything: 5.1.7
       solid-js: 1.7.11
       solid-refresh: 0.5.3(solid-js@1.7.11)
-      vite: 4.4.8(@types/node@20.4.8)
-      vitefu: 0.2.4(vite@4.4.8)
+      vite: 4.4.9(@types/node@20.4.8)
+      vitefu: 0.2.4(vite@4.4.9)
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /vite@4.4.8(@types/node@20.4.8):
-    resolution: {integrity: sha512-LONawOUUjxQridNWGQlNizfKH89qPigK36XhMI7COMGztz8KNY0JHim7/xDd71CZwGT4HtSRgI7Hy+RlhG0Gvg==}
+  /vite@4.4.9(@types/node@20.4.8):
+    resolution: {integrity: sha512-2mbUn2LlUmNASWwSCNSJ/EG2HuSRTnVNaydp6vMCm5VIqJsjMfbIWtbH2kDuwUVW5mMUKKZvGPX/rqeqVvv1XA==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
@@ -8903,7 +8903,7 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vitefu@0.2.4(vite@4.4.8):
+  /vitefu@0.2.4(vite@4.4.9):
     resolution: {integrity: sha512-fanAXjSaf9xXtOOeno8wZXIhgia+CZury481LsDaV++lSvcU2R9Ch2bPh3PYFyoHW+w9LqAeYRISVQjUIew14g==}
     peerDependencies:
       vite: ^3.0.0 || ^4.0.0
@@ -8911,7 +8911,7 @@ packages:
       vite:
         optional: true
     dependencies:
-      vite: 4.4.8(@types/node@20.4.8)
+      vite: 4.4.9(@types/node@20.4.8)
     dev: true
 
   /vitest@0.33.0(jsdom@22.1.0):
@@ -8967,7 +8967,7 @@ packages:
       strip-literal: 1.3.0
       tinybench: 2.5.0
       tinypool: 0.6.0
-      vite: 4.4.8(@types/node@20.4.8)
+      vite: 4.4.9(@types/node@20.4.8)
       vite-node: 0.33.0(@types/node@20.4.8)
       why-is-node-running: 2.2.2
     transitivePeerDependencies:
