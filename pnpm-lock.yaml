@@ -5,9 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
-  solid-app-router:
-    specifier: 0.4.2
-    version: 0.4.2(solid-js@1.7.11)
+  '@solidjs/router':
+    specifier: 0.8.3
+    version: 0.8.3(solid-js@1.7.11)
   solid-js:
     specifier: 1.7.11
     version: 1.7.11
@@ -2309,6 +2309,14 @@ packages:
   /@sinclair/typebox@0.27.8:
     resolution: {integrity: sha512-+Fj43pSMwJs4KRrH/938Uf+uAELIgVBmQzg/q1YG10djyfA3TnrU8N8XzqCh/okZdszqBQTZf96idMfE5lnwTA==}
     dev: true
+
+  /@solidjs/router@0.8.3(solid-js@1.7.11):
+    resolution: {integrity: sha512-oJuqQo10rVTiQYhe1qXIG1NyZIZ2YOwHnlLc8Xx+g/iJhFCJo1saLOIrD/Dkh2fpIaIny5ZMkz1cYYqoTYGJbg==}
+    peerDependencies:
+      solid-js: ^1.5.3
+    dependencies:
+      solid-js: 1.7.11
+    dev: false
 
   /@storybook/addon-a11y@7.2.3(react-dom@18.2.0)(react@18.2.0):
     resolution: {integrity: sha512-sax3w3TVw1s5OxeIcwFKh5NEeuvoIsureETbGUC/jz2JalNBZNvpwfkkwvmO1a8cieiYrmQl6ucB1KnA1gLq8g==}
@@ -7977,14 +7985,6 @@ packages:
       astral-regex: 2.0.0
       is-fullwidth-code-point: 3.0.0
     dev: true
-
-  /solid-app-router@0.4.2(solid-js@1.7.11):
-    resolution: {integrity: sha512-+NrLcmqYssx8DcbpcLBaYPqfTRtS+rkfbxMhLH8MHfTcTkdZfrkWQK7lsUvuPCebGEzfaPZJvHqBwhPrCXAmxg==}
-    peerDependencies:
-      solid-js: ^1.3.5
-    dependencies:
-      solid-js: 1.7.11
-    dev: false
 
   /solid-js@1.7.11:
     resolution: {integrity: sha512-JkuvsHt8jqy7USsy9xJtT18aF9r2pFO+GB8JQ2XGTvtF49rGTObB46iebD25sE3qVNvIbwglXOXdALnJq9IHtQ==}

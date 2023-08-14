@@ -1,4 +1,4 @@
-import { Router } from 'solid-app-router'
+import { Router } from '@solidjs/router'
 import { Component } from 'solid-js'
 
 export const App: Component = () => (

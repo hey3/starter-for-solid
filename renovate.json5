@@ -28,7 +28,7 @@
     },
     {
       groupName: 'Routing families',
-      matchPackageNames: ['solid-app-router'],
+      matchPackageNames: ['@solidjs/router'],
     },
     {
       groupName: 'ESLint families',
