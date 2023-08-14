@@ -8,6 +8,12 @@ const config: StorybookConfig = {
     name: '@storybook/html-vite',
     options: {},
   },
+  async viteFinal(config) {
+    return {
+      ...config,
+      define: { 'process.env': {} },
+    }
+  },
 }
 
 export default config
