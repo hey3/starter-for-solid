@@ -6,15 +6,7 @@ export default defineConfig({
   test: {
     globals: true,
     environment: 'jsdom',
-    transformMode: {
-      web: [/\.[jt]sx?$/],
-    },
-    deps: {
-      inline: [/solid-js/],
-    },
+    setupFiles: ['./test/setup.ts'],
     passWithNoTests: true,
-  },
-  resolve: {
-    conditions: ['development', 'browser'],
   },
 })
