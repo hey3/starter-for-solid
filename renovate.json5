@@ -48,6 +48,11 @@
       matchPackageNames: ['vitest', 'jsdom'],
     },
     {
+      groupName: 'Test Utility families',
+      matchPackageNames: ['@solidjs/testing-library'],
+      matchPackagePatterns: ['^@testing-library'],
+    },
+    {
       groupName: 'Storybook families',
       matchPackageNames: ['storybook'],
       matchPackagePatterns: ['^@storybook'],
