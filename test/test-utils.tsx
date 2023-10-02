@@ -20,5 +20,5 @@ const customRender = (ui: () => JSX.Element, options?: Options): Result =>
   })
 
 export * from '@solidjs/testing-library'
-export { default as userEvent } from '@testing-library/user-event'
+export { userEvent } from '@testing-library/user-event'
 export { customRender as render }
