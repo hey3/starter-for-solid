@@ -13,11 +13,16 @@ module.exports = {
   plugins: ['unused-imports'],
   rules: {
     'import/export': 'off',
-    'import/newline-after-import': 'error',
+    'import/newline-after-import': [
+      'error',
+      {
+        considerComments: true,
+      },
+    ],
     'import/order': [
       'error',
       {
-        groups: ['builtin', 'external', 'internal', 'parent', 'sibling', 'index', 'object'],
+        groups: ['builtin', 'external', 'internal', 'parent', 'sibling', 'index', 'object', 'type'],
         alphabetize: {
           order: 'asc',
         },
@@ -54,14 +59,11 @@ module.exports = {
       parser: '@typescript-eslint/parser',
       extends: ['plugin:@typescript-eslint/recommended', 'plugin:import/typescript'],
       rules: {
-        '@typescript-eslint/no-unused-vars': ['error'],
-        '@typescript-eslint/explicit-function-return-type': [
-          'warn',
-          {
-            allowExpressions: true,
-            allowConciseArrowFunctionExpressionsStartingWithVoid: true,
-          },
+        '@typescript-eslint/consistent-type-imports': [
+          'error',
+          { prefer: 'type-imports', fixStyle: 'inline-type-imports' },
         ],
+        '@typescript-eslint/no-unused-vars': ['error'],
       },
     },
     {
