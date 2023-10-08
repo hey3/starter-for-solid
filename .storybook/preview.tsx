@@ -1,4 +1,4 @@
-import type { Preview } from '@storybook/html'
+import { type Preview } from '@storybook/html'
 import { render } from 'solid-js/web'
 import { ThemeProvider } from '../src/stores/ThemeStore'
 import '../src/styles/reset.css'

@@ -1,5 +1,5 @@
 import { render } from '@solidjs/testing-library'
-import type { Component, JSX } from 'solid-js'
+import { type Component, type JSX } from 'solid-js'
 import { ThemeProvider } from '../src/stores/ThemeStore'
 
 type Options = NonNullable<Parameters<typeof render>[1]>

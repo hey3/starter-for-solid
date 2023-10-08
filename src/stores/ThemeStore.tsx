@@ -1,5 +1,10 @@
-import { createContext, useContext, createRenderEffect, createEffect } from 'solid-js'
-import type { ParentComponent } from 'solid-js'
+import {
+  createContext,
+  useContext,
+  createRenderEffect,
+  createEffect,
+  type ParentComponent,
+} from 'solid-js'
 import { createStore } from 'solid-js/store'
 
 type Theme = 'light' | 'dark'
