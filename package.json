@@ -62,7 +62,7 @@
     "eslint-config-prettier": "9.1.0",
     "eslint-plugin-import": "2.29.1",
     "eslint-plugin-jsx-a11y": "6.8.0",
-    "eslint-plugin-solid": "0.13.0",
+    "eslint-plugin-solid": "0.13.1",
     "eslint-plugin-storybook": "0.6.15",
     "eslint-plugin-unused-imports": "3.0.0",
     "jsdom": "23.0.1",
