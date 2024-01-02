@@ -45,8 +45,8 @@
     "typecheck": "tsc --project tsconfig.json --pretty --noEmit --incremental false"
   },
   "dependencies": {
-    "@solidjs/router": "0.8.4",
-    "solid-js": "1.7.12"
+    "@solidjs/router": "0.10.5",
+    "solid-js": "1.8.7"
   },
   "devDependencies": {
     "@solidjs/testing-library": "0.8.5",
@@ -73,7 +73,7 @@
     "stylelint-config-standard": "36.0.0",
     "typescript": "5.3.3",
     "vite": "4.5.1",
-    "vite-plugin-solid": "2.7.2",
+    "vite-plugin-solid": "2.8.0",
     "vitest": "0.34.6"
   }
 }
