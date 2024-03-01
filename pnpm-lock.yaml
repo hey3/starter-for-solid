@@ -14,8 +14,8 @@ dependencies:
 
 devDependencies:
   '@solidjs/testing-library':
-    specifier: 0.8.5
-    version: 0.8.5(@solidjs/router@0.10.10)(solid-js@1.8.11)
+    specifier: 0.8.6
+    version: 0.8.6(@solidjs/router@0.10.10)(solid-js@1.8.11)
   '@storybook/addon-a11y':
     specifier: 7.4.6
     version: 7.4.6(react-dom@18.2.0)(react@18.2.0)
@@ -2442,11 +2442,11 @@ packages:
     dependencies:
       solid-js: 1.8.11
 
-  /@solidjs/testing-library@0.8.5(@solidjs/router@0.10.10)(solid-js@1.8.11):
-    resolution: {integrity: sha512-L9TowCoqdRQGB8ikODh9uHXrYTjCUZseVUG0tIVa836//qeSqXP4m0BKG66v9Zp1y1wRxok5qUW97GwrtEBMcw==}
+  /@solidjs/testing-library@0.8.6(@solidjs/router@0.10.10)(solid-js@1.8.11):
+    resolution: {integrity: sha512-MnDGfUw38SjE+lmCDZ44HeZq5WbDU7s/BTa7uvqv55GKatddoWiJmHanUAbuEtmwMdEv+fFQQzftkqrFXEn1BQ==}
     engines: {node: '>= 14'}
     peerDependencies:
-      '@solidjs/router': '>=0.6.0'
+      '@solidjs/router': '>=0.9.0'
       solid-js: '>=1.0.0'
     dependencies:
       '@solidjs/router': 0.10.10(solid-js@1.8.11)
