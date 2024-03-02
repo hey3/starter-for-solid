@@ -46,7 +46,7 @@
   },
   "dependencies": {
     "@solidjs/router": "0.10.10",
-    "solid-js": "1.8.11"
+    "solid-js": "1.8.15"
   },
   "devDependencies": {
     "@solidjs/testing-library": "0.8.6",
