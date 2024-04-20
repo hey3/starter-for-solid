@@ -54,7 +54,7 @@
     "@storybook/addon-essentials": "7.4.6",
     "@storybook/html": "7.4.6",
     "@storybook/html-vite": "7.4.6",
-    "@testing-library/jest-dom": "6.1.6",
+    "@testing-library/jest-dom": "6.4.2",
     "@testing-library/user-event": "14.5.2",
     "@typescript-eslint/eslint-plugin": "6.21.0",
     "@typescript-eslint/parser": "6.21.0",
