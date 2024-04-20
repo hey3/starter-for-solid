@@ -45,7 +45,7 @@
     "typecheck": "tsc --project tsconfig.json --pretty --noEmit --incremental false"
   },
   "dependencies": {
-    "@solidjs/router": "0.10.10",
+    "@solidjs/router": "0.13.2",
     "solid-js": "1.8.16"
   },
   "devDependencies": {
