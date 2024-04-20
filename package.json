@@ -49,7 +49,7 @@
     "solid-js": "1.8.15"
   },
   "devDependencies": {
-    "@solidjs/testing-library": "0.8.6",
+    "@solidjs/testing-library": "0.8.7",
     "@storybook/addon-a11y": "7.4.6",
     "@storybook/addon-essentials": "7.4.6",
     "@storybook/html": "7.4.6",
