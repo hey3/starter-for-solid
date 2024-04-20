@@ -65,7 +65,7 @@
     "eslint-plugin-solid": "0.13.2",
     "eslint-plugin-storybook": "0.8.0",
     "eslint-plugin-unused-imports": "3.1.0",
-    "jsdom": "23.2.0",
+    "jsdom": "24.0.0",
     "prettier": "3.2.5",
     "storybook": "7.6.17",
     "stylelint": "16.3.1",
@@ -74,6 +74,6 @@
     "typescript": "5.4.5",
     "vite": "5.2.9",
     "vite-plugin-solid": "2.10.2",
-    "vitest": "0.34.6"
+    "vitest": "1.5.0"
   }
 }
