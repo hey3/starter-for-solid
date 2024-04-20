@@ -65,7 +65,7 @@
     "eslint-plugin-solid": "0.13.2",
     "eslint-plugin-storybook": "0.8.0",
     "eslint-plugin-unused-imports": "3.1.0",
-    "jsdom": "23.0.1",
+    "jsdom": "23.2.0",
     "prettier": "3.2.5",
     "storybook": "7.4.6",
     "stylelint": "16.3.1",
