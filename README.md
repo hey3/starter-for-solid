@@ -9,12 +9,6 @@ My boilerplate for Web Frontend using SolidJS.
 
 Recommend to use as a template.
 
-## Quick Start
-
-1. Clone this repo using `git clone --depth=1 https://github.com/hey3/starter-for-solid <YOUR_PROJECT_NAME>`
-2. Move to the appropriate directory: `cd <YOUR_PROJECT_NAME>`.
-3. Run `pnpm install` in order to install dependencies. At this point you can run `pnpm dev` to see the example app
-
 ## Development
 
 ```sh
