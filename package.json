@@ -51,7 +51,7 @@
   },
   "devDependencies": {
     "@eslint/js": "8.57.0",
-    "@solidjs/testing-library": "0.8.7",
+    "@solidjs/testing-library": "0.8.8",
     "@storybook/addon-a11y": "8.0.10",
     "@storybook/addon-essentials": "8.0.10",
     "@storybook/html": "8.0.10",
