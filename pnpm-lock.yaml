@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@solidjs/router':
-        specifier: 0.13.5
-        version: 0.13.5(solid-js@1.8.17)
+        specifier: 0.13.6
+        version: 0.13.6(solid-js@1.8.17)
       solid-js:
         specifier: 1.8.17
         version: 1.8.17
@@ -20,7 +20,7 @@ importers:
         version: 8.57.0
       '@solidjs/testing-library':
         specifier: 0.8.8
-        version: 0.8.8(@solidjs/router@0.13.5(solid-js@1.8.17))(solid-js@1.8.17)
+        version: 0.8.8(@solidjs/router@0.13.6(solid-js@1.8.17))(solid-js@1.8.17)
       '@storybook/addon-a11y':
         specifier: 8.1.10
         version: 8.1.10
@@ -1249,8 +1249,8 @@ packages:
     resolution: {integrity: sha512-LtoMMhxAlorcGhmFYI+LhPgbPZCkgP6ra1YL604EeF6U98pLlQ3iWIGMdWSC+vWmPBWBNgmDBAhnAobLROJmwg==}
     engines: {node: '>=18'}
 
-  '@solidjs/router@0.13.5':
-    resolution: {integrity: sha512-I/bR5ZHCz2Dx80qL+6uGwSdclqXRqoT49SJ5cvLbOuT3HnYysSIxSfULCTWUMLFVcgPh5GrdHV6KwEoyrbPZZA==}
+  '@solidjs/router@0.13.6':
+    resolution: {integrity: sha512-CdpFsBYoiJ/FQ4wZIamj3KEFRkmrYu5sVXM6PouNkmSENta1YJamsm9wa/VjaPmkw2RsnDnO0UvZ705v6EgOXQ==}
     peerDependencies:
       solid-js: ^1.8.6
 
@@ -5816,16 +5816,16 @@ snapshots:
 
   '@sindresorhus/merge-streams@2.3.0': {}
 
-  '@solidjs/router@0.13.5(solid-js@1.8.17)':
+  '@solidjs/router@0.13.6(solid-js@1.8.17)':
     dependencies:
       solid-js: 1.8.17
 
-  '@solidjs/testing-library@0.8.8(@solidjs/router@0.13.5(solid-js@1.8.17))(solid-js@1.8.17)':
+  '@solidjs/testing-library@0.8.8(@solidjs/router@0.13.6(solid-js@1.8.17))(solid-js@1.8.17)':
     dependencies:
       '@testing-library/dom': 10.1.0
       solid-js: 1.8.17
     optionalDependencies:
-      '@solidjs/router': 0.13.5(solid-js@1.8.17)
+      '@solidjs/router': 0.13.6(solid-js@1.8.17)
 
   '@storybook/addon-a11y@8.1.10':
     dependencies:
