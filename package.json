@@ -74,7 +74,7 @@
     "stylelint-config-standard": "36.0.1",
     "typescript": "5.4.5",
     "typescript-eslint": "7.13.1",
-    "vite": "5.2.13",
+    "vite": "5.3.5",
     "vite-plugin-solid": "2.10.2",
     "vitest": "1.6.0"
   }
