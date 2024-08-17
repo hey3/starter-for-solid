@@ -52,8 +52,8 @@ importers:
         specifier: 6.8.0
         version: 6.8.0(eslint@8.57.0)
       eslint-plugin-solid:
-        specifier: 0.14.1
-        version: 0.14.1(eslint@8.57.0)(typescript@5.5.4)
+        specifier: 0.14.2
+        version: 0.14.2(eslint@8.57.0)(typescript@5.5.4)
       eslint-plugin-storybook:
         specifier: 0.8.0
         version: 0.8.0(eslint@8.57.0)(typescript@5.5.4)
@@ -2067,8 +2067,8 @@ packages:
     peerDependencies:
       eslint: ^3 || ^4 || ^5 || ^6 || ^7 || ^8
 
-  eslint-plugin-solid@0.14.1:
-    resolution: {integrity: sha512-2bR21xTGhXufK5qqib0h8fQkoZbVm0Xmsgioj+D6ynLXvVq20Atf5F/qyu2WUVNukKJkpd6WsYW0JRWFo2yZvQ==}
+  eslint-plugin-solid@0.14.2:
+    resolution: {integrity: sha512-uyX+/ONsM0IoVBV9EBv7uAhhFXqTfAGd3lxUCNfC+XmJazme1f4UAPhPNbqSfqnzaCbXwB1rsD/9ZpAgO6mzew==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
       eslint: ^6.0.0 || ^7.0.0 || ^8.0.0 || ^9.0.0
@@ -6337,7 +6337,7 @@ snapshots:
       object.entries: 1.1.8
       object.fromentries: 2.0.8
 
-  eslint-plugin-solid@0.14.1(eslint@8.57.0)(typescript@5.5.4):
+  eslint-plugin-solid@0.14.2(eslint@8.57.0)(typescript@5.5.4):
     dependencies:
       '@typescript-eslint/utils': 7.18.0(eslint@8.57.0)(typescript@5.5.4)
       eslint: 8.57.0
