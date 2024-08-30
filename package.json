@@ -47,7 +47,7 @@
   },
   "dependencies": {
     "@solidjs/router": "0.14.3",
-    "solid-js": "1.8.21"
+    "solid-js": "1.8.22"
   },
   "devDependencies": {
     "@eslint/js": "8.57.0",
