@@ -50,7 +50,7 @@
     "solid-js": "1.8.22"
   },
   "devDependencies": {
-    "@eslint/js": "8.57.0",
+    "@eslint/js": "8.57.1",
     "@solidjs/testing-library": "0.8.9",
     "@storybook/addon-a11y": "8.2.9",
     "@storybook/addon-essentials": "8.2.9",
@@ -58,7 +58,7 @@
     "@storybook/html-vite": "8.2.9",
     "@testing-library/jest-dom": "6.4.8",
     "@testing-library/user-event": "14.5.2",
-    "eslint": "8.57.0",
+    "eslint": "8.57.1",
     "eslint-config-prettier": "9.1.0",
     "eslint-plugin-import": "2.29.1",
     "eslint-plugin-jsx-a11y": "6.8.0",
