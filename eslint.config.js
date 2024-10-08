@@ -1,4 +1,3 @@
-import { FlatCompat } from '@eslint/eslintrc'
 import js from '@eslint/js'
 import configPrettier from 'eslint-config-prettier'
 import pluginImport from 'eslint-plugin-import'
@@ -8,8 +7,6 @@ import globals from 'globals'
 
 // eslint-disable-next-line import/no-unresolved
 import typescriptEslint from 'typescript-eslint'
-
-const compat = new FlatCompat()
 
 const configBase = typescriptEslint.config(js.configs.recommended, {
   plugins: {
@@ -87,6 +84,5 @@ export default typescriptEslint.config(
   ...configBase,
   ...configTypescript,
   ...configSolid,
-  ...compat.extends('plugin:storybook/recommended'),
   configPrettier
 )
