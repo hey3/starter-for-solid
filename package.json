@@ -50,7 +50,7 @@
     "solid-js": "1.9.3"
   },
   "devDependencies": {
-    "@eslint/js": "9.12.0",
+    "@eslint/js": "9.19.0",
     "@solidjs/testing-library": "0.8.10",
     "@storybook/addon-a11y": "8.5.2",
     "@storybook/addon-essentials": "8.5.2",
@@ -58,13 +58,13 @@
     "@storybook/html-vite": "8.5.2",
     "@testing-library/jest-dom": "6.5.0",
     "@testing-library/user-event": "14.5.2",
-    "eslint": "9.12.0",
+    "eslint": "9.19.0",
     "eslint-config-prettier": "9.1.0",
     "eslint-plugin-import": "2.31.0",
     "eslint-plugin-jsx-a11y": "6.10.2",
     "eslint-plugin-solid": "0.14.4",
     "eslint-plugin-unused-imports": "4.1.4",
-    "globals": "15.10.0",
+    "globals": "15.14.0",
     "jsdom": "25.0.1",
     "prettier": "3.3.3",
     "storybook": "8.5.2",
@@ -72,7 +72,7 @@
     "stylelint-config-recess-order": "5.1.1",
     "stylelint-config-standard": "36.0.1",
     "typescript": "5.6.3",
-    "typescript-eslint": "8.8.1",
+    "typescript-eslint": "8.22.0",
     "vite": "5.4.12",
     "vite-plugin-solid": "2.10.2",
     "vitest": "2.1.6"
