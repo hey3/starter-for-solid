@@ -88,8 +88,8 @@ importers:
         specifier: 6.0.11
         version: 6.0.11(@types/node@22.8.5)
       vite-plugin-solid:
-        specifier: 2.11.2
-        version: 2.11.2(@testing-library/jest-dom@6.6.3)(solid-js@1.9.5)(vite@6.0.11(@types/node@22.8.5))
+        specifier: 2.11.6
+        version: 2.11.6(@testing-library/jest-dom@6.6.3)(solid-js@1.9.5)(vite@6.0.11(@types/node@22.8.5))
       vitest:
         specifier: 3.0.6
         version: 3.0.6(@types/node@22.8.5)(jsdom@26.0.0)
@@ -2451,8 +2451,8 @@ packages:
     engines: {node: ^18.0.0 || ^20.0.0 || >=22.0.0}
     hasBin: true
 
-  vite-plugin-solid@2.11.2:
-    resolution: {integrity: sha512-/OXVasW5OIRSFXnqzMgm8X3hPvf+JTbGecjQhmk7QnbDFq4hqdLssuYAWw9GsJGfzUPiMHM3ME2Y2XHPsTWmkw==}
+  vite-plugin-solid@2.11.6:
+    resolution: {integrity: sha512-Sl5CTqJTGyEeOsmdH6BOgalIZlwH3t4/y0RQuFLMGnvWMBvxb4+lq7x3BSiAw6etf0QexfNJW7HSOO/Qf7pigg==}
     peerDependencies:
       '@testing-library/jest-dom': ^5.16.6 || ^5.17.0 || ^6.*
       solid-js: ^1.7.2
@@ -5171,7 +5171,7 @@ snapshots:
       - tsx
       - yaml
 
-  vite-plugin-solid@2.11.2(@testing-library/jest-dom@6.6.3)(solid-js@1.9.5)(vite@6.0.11(@types/node@22.8.5)):
+  vite-plugin-solid@2.11.6(@testing-library/jest-dom@6.6.3)(solid-js@1.9.5)(vite@6.0.11(@types/node@22.8.5)):
     dependencies:
       '@babel/core': 7.26.0
       '@types/babel__core': 7.20.5
