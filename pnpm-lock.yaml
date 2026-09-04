@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@solidjs/router':
-        specifier: 0.15.3
-        version: 0.15.3(solid-js@1.9.9)
+        specifier: 0.15.4
+        version: 0.15.4(solid-js@1.9.9)
       solid-js:
         specifier: 1.9.9
         version: 1.9.9
@@ -20,7 +20,7 @@ importers:
         version: 9.27.0
       '@solidjs/testing-library':
         specifier: 0.8.10
-        version: 0.8.10(@solidjs/router@0.15.3(solid-js@1.9.9))(solid-js@1.9.9)
+        version: 0.8.10(@solidjs/router@0.15.4(solid-js@1.9.9))(solid-js@1.9.9)
       '@storybook/addon-a11y':
         specifier: 8.6.14
         version: 8.6.14(storybook@8.6.17(prettier@3.5.3))
@@ -581,8 +581,8 @@ packages:
   '@rtsao/scc@1.1.0':
     resolution: {integrity: sha512-zt6OdqaDoOnJ1ZYsCYGt9YmWzDXl4vQdKTyJev62gFhRGKdx7mcT54V9KIjg+d2wi9EXsPvAPKe7i7WjfVWB8g==}
 
-  '@solidjs/router@0.15.3':
-    resolution: {integrity: sha512-iEbW8UKok2Oio7o6Y4VTzLj+KFCmQPGEpm1fS3xixwFBdclFVBvaQVeibl1jys4cujfAK5Kn6+uG2uBm3lxOMw==}
+  '@solidjs/router@0.15.4':
+    resolution: {integrity: sha512-WOpgg9a9T638cR+5FGbFi/IV4l2FpmBs1GpIMSPa0Ce9vyJN7Wts+X2PqMf9IYn0zUj2MlSJtm1gp7/HI/n5TQ==}
     peerDependencies:
       solid-js: ^1.8.6
 
@@ -1362,6 +1362,7 @@ packages:
   eslint@9.27.0:
     resolution: {integrity: sha512-ixRawFQuMB9DZ7fjU3iGGganFDp3+45bPOdaRurcFHSXO1e/sYwUX/FtQZpLZJR6SjMoJH8hR2pPEAfDyCoU2Q==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
+    deprecated: This version is no longer supported. Please see https://eslint.org/version-support for other options.
     hasBin: true
     peerDependencies:
       jiti: '*'
@@ -2483,6 +2484,7 @@ packages:
 
   uuid@9.0.1:
     resolution: {integrity: sha512-b+1eJOlsR9K8HJpow9Ok3fiWOWSIcIzXodvv0rQjVoOVNpWMpxf1wZNpt4y9h10odCNrqnYp1OBzRktckBe3sA==}
+    deprecated: uuid@10 and below is no longer supported.  For ESM codebases, update to uuid@latest.  For CommonJS codebases, use uuid@11 (but be aware this version will likely be deprecated in 2028).
     hasBin: true
 
   validate-html-nesting@1.2.2:
@@ -3059,16 +3061,16 @@ snapshots:
 
   '@rtsao/scc@1.1.0': {}
 
-  '@solidjs/router@0.15.3(solid-js@1.9.9)':
+  '@solidjs/router@0.15.4(solid-js@1.9.9)':
     dependencies:
       solid-js: 1.9.9
 
-  '@solidjs/testing-library@0.8.10(@solidjs/router@0.15.3(solid-js@1.9.9))(solid-js@1.9.9)':
+  '@solidjs/testing-library@0.8.10(@solidjs/router@0.15.4(solid-js@1.9.9))(solid-js@1.9.9)':
     dependencies:
       '@testing-library/dom': 10.4.0
       solid-js: 1.9.9
     optionalDependencies:
-      '@solidjs/router': 0.15.3(solid-js@1.9.9)
+      '@solidjs/router': 0.15.4(solid-js@1.9.9)
 
   '@storybook/addon-a11y@8.6.14(storybook@8.6.17(prettier@3.5.3))':
     dependencies:
