@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@solidjs/router':
-        specifier: 0.15.4
-        version: 0.15.4(solid-js@1.9.15)
+        specifier: 0.16.3
+        version: 0.16.3(solid-js@1.9.15)
       solid-js:
         specifier: 1.9.15
         version: 1.9.15
@@ -20,7 +20,7 @@ importers:
         version: 9.27.0
       '@solidjs/testing-library':
         specifier: 0.8.10
-        version: 0.8.10(@solidjs/router@0.15.4(solid-js@1.9.15))(solid-js@1.9.15)
+        version: 0.8.10(@solidjs/router@0.16.3(solid-js@1.9.15))(solid-js@1.9.15)
       '@storybook/addon-a11y':
         specifier: 8.6.18
         version: 8.6.18(storybook@8.6.18(prettier@3.5.3))
@@ -581,8 +581,8 @@ packages:
   '@rtsao/scc@1.1.0':
     resolution: {integrity: sha512-zt6OdqaDoOnJ1ZYsCYGt9YmWzDXl4vQdKTyJev62gFhRGKdx7mcT54V9KIjg+d2wi9EXsPvAPKe7i7WjfVWB8g==}
 
-  '@solidjs/router@0.15.4':
-    resolution: {integrity: sha512-WOpgg9a9T638cR+5FGbFi/IV4l2FpmBs1GpIMSPa0Ce9vyJN7Wts+X2PqMf9IYn0zUj2MlSJtm1gp7/HI/n5TQ==}
+  '@solidjs/router@0.16.3':
+    resolution: {integrity: sha512-WWQkmSmSpl+15HgUktGPbeXkgWmonj4XwPOcZVHJz1EQV3dz5qWHIyQ/BKXFevor6u/0dKvC9FlUmKmDwE1QHw==}
     peerDependencies:
       solid-js: ^1.8.6
 
@@ -3066,16 +3066,16 @@ snapshots:
 
   '@rtsao/scc@1.1.0': {}
 
-  '@solidjs/router@0.15.4(solid-js@1.9.15)':
+  '@solidjs/router@0.16.3(solid-js@1.9.15)':
     dependencies:
       solid-js: 1.9.15
 
-  '@solidjs/testing-library@0.8.10(@solidjs/router@0.15.4(solid-js@1.9.15))(solid-js@1.9.15)':
+  '@solidjs/testing-library@0.8.10(@solidjs/router@0.16.3(solid-js@1.9.15))(solid-js@1.9.15)':
     dependencies:
       '@testing-library/dom': 10.4.0
       solid-js: 1.9.15
     optionalDependencies:
-      '@solidjs/router': 0.15.4(solid-js@1.9.15)
+      '@solidjs/router': 0.16.3(solid-js@1.9.15)
 
   '@storybook/addon-a11y@8.6.18(storybook@8.6.18(prettier@3.5.3))':
     dependencies:
